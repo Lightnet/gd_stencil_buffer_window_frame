@@ -1,5 +1,9 @@
 # gd_stencil_buffer_window_frame
 
+# License: MIT
+
+# Godot: 4.5+
+
 # Information:
   Sample stencil buffer window frame that render cube when look bebhind the window frame it does not appear in cube.
   
