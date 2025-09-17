@@ -16,7 +16,7 @@ create standard 3d materail.
 -Transparency
 	-Transparency: Alpha
 - Albedo
-	- Color: A = 0 , #ffffff00 //full transparent.
+	- Color: A = 0 , #ffffff00 // full transparent or leave as is.
 - Stencil
 	- Mode : Custom
 	- Flags: Wrtie
@@ -26,9 +26,9 @@ create standard 3d materail.
 ```
 create boxmesh
 create standard 3d materail.
-- Render Proprity: 1 // need to screen to match id to render to screen id
+- Render Proprity: 1 // need to filter render
 - Transparency
-	-Transparency: Alpha // need to be set for screen to work
+	-Transparency: Alpha // need to be set for screen to render
 - Stencil
 	- Mode : Custom
 	- Flags: Read
